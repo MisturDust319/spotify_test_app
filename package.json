@@ -1,14 +1,12 @@
 {
-  "name": "spotify_test_app",
-  "version": "1.0.0",
-  "description": "simple spotify app",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "spotify"
-  ],
-  "author": "misturdust319",
-  "license": "ISC"
+  "author": "Spotify",
+  "name": "web-api-auth-examples",
+  "description": "Basic examples of the Spotify authorization flows through OAuth 2",
+  "version": "0.0.1",
+  "dependencies": {
+    "cookie-parser": "1.3.2",
+    "express": "~4.0.0",
+    "querystring": "~0.2.0",
+    "request": "~2.34.0"
+  }
 }
