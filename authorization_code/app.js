@@ -11,12 +11,12 @@ var express = require('express'); // Express web server framework
 var request = require('request'); // "Request" library
 var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
-var keys = require('../keys');
-var settings = require('../settings');
+var keys = require('../keys.js');
+var settings = require('../settings.js');
 
-var client_id = keys.spotify; // Your client id
-var client_secret = keys.spotify_secret; // Your secret
-var redirect_uri = settings.redirect_url; // Your redirect uri
+var client_id = keys.keys.spotify; // Your client id
+var client_secret = keys.keys.spotify_secret; // Your secret
+var redirect_uri = settings.settings.redirect_url; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
