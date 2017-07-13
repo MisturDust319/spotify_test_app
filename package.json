@@ -1,0 +1,14 @@
+{
+  "name": "spotify_test_app",
+  "version": "1.0.0",
+  "description": "simple spotify app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spotify"
+  ],
+  "author": "misturdust319",
+  "license": "ISC"
+}
